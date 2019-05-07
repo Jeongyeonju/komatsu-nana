@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+		<title>花</title>
+	<style>
+		.wrap {width: 800px; margin:auto;}
+		section {background: url(back.jpg); overflow: hidden; background-size: cover; height: 4482px; position: relative;}
+    	footer {text-align: center; font-size: 20px;}
+
+		.kokeshi {width: 350px; display: block; position: absolute; top: 80px; left: 450px; transition: all 1s; animation: ko 4s infinite linear;}
+		.liu {width: 200px; display: block; position: absolute; top: 150px; left: -10px;}
+		.bot {width: 520px; display: block; position: absolute; top: 315px; left: -45px; transition: all 1s; animation: bo 0.4s infinite linear alternate;}
+		.ggot {width: 298px; display: block; position: absolute; top: 608px; left: 148px;}
+		.flower {width: 280px; display: block; position: absolute; top: 665px; left: 310px;z-index: 999;}
+		.nanaflo {width: 500px; display: block; position: absolute; top: 725px; left: 330px; z-index: 998;}
+		.nanaflo2 {width: 146px; display: block; position: absolute; top: 863px; left: 465px; z-index: 998; transition: all 1s; animation: no 0.5s infinite alternate;}
+		.yi {width: 280px; display: block; position: absolute; top: 1080px; left: -60px; z-index: 1}
+		.frog {width: 350px; display: block; position: absolute; top: 1260px; left: -80px; transition: all 1s; animation: fo 2s infinite linear; z-index: 0}
+		.frog2 {width: 180px; display: block; position: absolute; top: 1200px; left: 120px; transition: all 1s; animation: fo 2s infinite linear; z-index: 2}
+		.frog3 {width: 90px; display: block; position: absolute; top: 1320px; left: 220px; transition: all 1s; animation: fo 2s infinite linear; z-index: 3}
+		.call {width: 350px; display: block; position: absolute; top: 1650px; left: 20px;}
+		.hana {width: 1000px; display: block; position: absolute; top: 1230px; left: 0px; transition: all 1s; animation: ho 0.5s infinite linear;}
+		.redflower2 {width: 450px; display: block; position: absolute; top: 1130px; left: 370px; z-index: 1;}
+		.redflower {width: 400px; display: block; position: absolute; top: 1700px; left: 700px; z-index: 999;}
+		.lovenana {width: 720px; display: block; position: absolute; top: 1850px; left: 120px; transition: all 1s; animation: lo 0.5s infinite linear alternate;}
+		.reed {width: 400px; display: block; position: absolute; top: 2170px; left: -65px;}
+		.nana2 {width: 190px; display: block; position: absolute; top: 2430px; left: 600px;}
+		.nana3 {width: 670px; display: block; position: absolute; top: 2710px; left: 45px; z-index: 998;}
+		.nana33 {width: 178px; display: block; position: absolute; top: 2902px; left: 351px; z-index: 998; transition: all 1s; animation: no 0.3s infinite alternate;}
+		.reed2 {width: 400px; display: block; position: absolute; top: 2580px; left: -10px; z-index: 999;transition: all 1s; animation: rro 3s infinite linear alternate;}
+		.oriental {width: 130px; display: block; position: absolute; top: 2680px; left: 0px; z-index: 1000;}
+		.liu2 {width: 470px; display: block; position: absolute; top: 3250px; left: 320px; transition: all 1s; animation: lio 2s infinite linear alternate;}
+		.hanana {width: 550px; display: block; position: absolute; top: 3400px; left: 250px; transition: all 1s; animation: lio 2s infinite linear alternate;}
+		.nana4 {width: 220px; display: block; position: absolute; top: 4210px; left: -10px; }
+		.nana4:hover { transition: all 1s; animation: nno 1s infinite alternate; }
+		.nana5 {width: 450px; display: block; position: absolute; top: 3950px; left: 300px;  transition: all 1s; animation: ffo 0.8s infinite alternate;}
+		.flower2 {width: 270px; display: block; position: absolute; top: 3920px; left: 270px; transition: all 1s; animation: fffo 0.8s infinite linear alternate;}
+		.redflower3 {width: 230px; display: block; position: absolute; top: 4030px; left: 82px; transition: all 1s; animation: fo 2s infinite linear;}
+
+		@keyframes ko{ 
+			to{ transform: rotate(360deg); } }
+		@keyframes bo{ 
+			to{ top: 340px; } }
+		@keyframes no{ 
+			from{opacity: 1}
+			to{opacity: 0}}
+		@keyframes ho{ 
+			to{opacity: 0.5}}
+		@keyframes fo{ 
+			to{ transform: rotate(360deg);} }
+		@keyframes lo{ 
+			from { transform: rotate(-10deg); }
+			to{ transform: rotate(10deg);} }
+		@keyframes rro{ 
+			from { transform: rotate(-40deg); }
+			to{ transform: rotate(20deg);} }
+		@keyframes lio{ 
+			to{ transform: rotate(360deg); width: 50px; left: 200px; } }
+		@keyframes ffo{ 
+			to{ width: 800px;} }
+		@keyframes fffo{ 
+			to{ transform: rotate(60deg); width: 10px; left: -500px;} }
+		@keyframes nno{ 
+			to{ left: -230px; }}
+		@keyframes ro{ 
+			to{ transform: rotate3d(1,1,1,360deg);} }
+		</style>
+</head>
+<body>
+	<div class="wrap">
+		<section>
+			<img src="kokeshi.png" class="kokeshi">
+			<img src="liu.png" class="liu">
+			<img src="bot.png" class="bot">
+			<img src="ggot.png" class="ggot">
+			<img src="flower.png" class="flower">
+			<img src="nanaflo.png" class="nanaflo">
+			<img src="nanaflo2.png" class="nanaflo2">
+			<img src="yi.png" class="yi">
+			<img src="frog.png" class="frog">
+			<img src="frog.png" class="frog2">
+			<img src="frog.png" class="frog3">
+			<img src="call.png" class="call">
+			<img src="hana.png" class="hana">
+			<img src="redflower.png" class="redflower2">
+			<img src="redflower.png" class="redflower">
+			<img src="lovenana.png" class="lovenana">
+			<img src="reed.png" class="reed">
+			<img src="nana2.png" class="nana2">
+			<img src="nana3.png" class="nana3">
+			<img src="nana33.png" class="nana33">
+			<img src="reed2.png" class="reed2">
+			<img src="oriental.png" class="oriental">
+			<img src="liu2.png" class="liu2">
+			<img src="hanana.png" class="hanana">
+			<img src="nana4.png" class="nana4">
+			<img src="nana5.png" class="nana5">
+			<img src="flower2.png" class="flower2">
+			<img src="redflower.png" class="redflower3">
+		</section>
+	</div>
+	<footer>
+        <p>copyright&copy;2019 한경대학교 디자인학과 정연주. 모든 권리 보유.</p>
+    </footer>
+</body>
+</html>
